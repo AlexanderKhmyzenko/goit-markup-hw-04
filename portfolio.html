@@ -35,16 +35,18 @@
         </nav>
         <ul class="communication list">
           <li class="item">
-            <a
-              href="mailto:info@devstudio.com"
-              target="_blank"
-              class="link mail"
-            >
+            <a href="mailto:info@devstudio.com" target="_blank" class="link">
+              <svg class="mail">
+                <use href="./images/sprite.svg#mail"></use>
+              </svg>
               info@devstudio.com
             </a>
           </li>
           <li class="item">
-            <a href="tel:380961111111" class="link telephone">
+            <a href="tel:380961111111" class="link">
+              <svg class="telephone">
+                <use href="./images/sprite.svg#telefon"></use>
+              </svg>
               +38 096 111 11 11
             </a>
           </li>
@@ -57,7 +59,7 @@
       <section class="portfolio">
         <!-- скрытый заголовок -->
         <div class="container">
-          <h1 class="portfolio-title">Наши проекты</h1>
+          <h1 class="portfolio-title visually-hidden">Наши проекты</h1>
           <!-- список фильтров -->
           <ul class="portfolio-list">
             <li class="item-button">
@@ -326,7 +328,7 @@
         <div class="form">
           <b class="form-act">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
           <div class="form-input">
-            <input type="text" />
+            <input type="text" class="footer-input" />
             <button type="button" class="button-secondary">Подписаться</button>
           </div>
         </div>
